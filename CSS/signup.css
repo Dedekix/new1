@@ -1,0 +1,152 @@
+html,body{
+    margin: 1px;
+    margin-top: 0px;
+}
+/* .navbar ul{
+    list-style-type: none;
+    display: flex;
+    width: 43%;
+}
+
+.navbar nav{
+    display: flex;
+}
+
+.navbar ul li{
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 0px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    align-items: center;
+   
+}
+
+.navbar ul li button{
+    
+    border-radius: 60px;
+    border: none;
+  
+}
+.navbar img{
+    width: 8.5%;
+    height: 8.5%;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+}
+.image{
+    background-image: url(../Images/new3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+} */
+.navbar nav img{
+    width: 100px;
+    height: auto;
+   
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.76),black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav{
+justify-content: center;
+    display: flex;
+}
+.navbar{
+    /* background-color: rgba(135, 207, 235, 0.575); */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.76),black);
+}
+.logo{
+    width: 90px;
+    height: 100px;
+    float: left;
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.582),black);
+}
+.new{
+    text-align: center;
+    margin-right: 80px;
+}
+.card-container{
+    background-color: rgba(128, 128, 128, 0.651);
+    width: 600px;
+    height: 490px;
+    border-radius: 40px;
+    margin: auto;
+}
+.form{
+    height: 430px;
+    width: 520px;
+    margin-left: 100px;
+    border-radius: 40px;
+    /* margin: auto; */
+    justify-content: space-between;
+}
+/* .names{
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.lastname{
+    padding-bottom: 20px;
+}
+.date{
+   
+    justify-content: space-between;
+    padding-bottom: 10px;
+} */
+.phone{
+    /* padding-bottom: 20px; */
+    border-radius: 40px;
+}
+/* .email{
+   
+    pa
+} */
+.password{
+    justify-content: space-between;
+    border-radius: 100px;
+}
+.checkbox{
+    width: 100px;
+    height: 30px;
+}
+.bttn{
+    color: aqua;
+    margin: auto;
+    }
+.form span{
+    color: black;
+}
+.form ul {
+    border: none;
+    list-style-type: none;
+    display: flex;
+    width: 43%;
+}
+.form ul li{
+    align-items: center;
+    border: none;
+}
+.form ul li a{
+    color: white;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+input[type="text"]{
+    width : 440px;
+    height : 30px;
+border-radius: 5px;
+display: block;
+}
+    
+input[type="checkbox"]{
+    width: 40px;
+    height: 20px;
+}

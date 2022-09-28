@@ -1,0 +1,12 @@
+html,body{
+    margin: 1px;
+    margin-top: 0px;
+}
+.form{
+    height: 430px;
+    width: 520px;
+    margin-left: 100px;
+    border-radius: 40px;
+    margin: auto;
+    justify-content: space-between;
+}
