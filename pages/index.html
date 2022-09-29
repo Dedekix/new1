@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title></title>
+        <title>Home page</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device=-width, initial.scale=1.0">
@@ -10,6 +10,9 @@
     </head>
     <body>
         <div class="image">
+            <video autoplay muted loop id="myVideo">
+                <source src="../videos/video.mp4" type="video/mp4">
+              </video>
             <div class="navbar">
                 <nav>
                     <img class="img" src="../Images/logo2.png" alt="code">
@@ -27,21 +30,58 @@
                             <a href=""><button class="btn SERVICES">SERVICES</button></a>
                         </li>
                         <li>
-                            <a href=""><button class="btn CONTACT US">CONTACT US</button></a>
+                            <a href=""><button class="btn SIGN UP">CONTACT US</button></a>
                         </li>
                     </ul>
+                    <div class="signing">
+                        <a href="login.html" target="_blank" rel="noopener"> SIGN UP</a>OR   
+                        <a href="login.html" target="_blank" rel="noopener"> SIGN IN</a>
+                        
+                    </div>
+                    
                 </nav>
                 <div class="headings" >
-                    <h1 id="heading-1">WELCOME TO OUR <span>WEBSITE</span></h1>
-                </div>
-                <div class="buttons">
-                    <span><button type="submit">LOGIN</button>
-                    <button type="submit">SIGN UP</button>
-                </span>
+                    <h1 id="heading-1"> <span>WEBSITE</span></h1>
+                    <form action="">
+                        <label for="bedrooms">Prices:</label>
+                        <select name="hotels" id="hotels">
+                            <option value="volvo"></option>
+                        <option value="volvo">$800</option>
+        <option value="saab">$900</option>
+        <option value="opel">$300</option>
+        <option value="audi">$400</option>
+         </select>
+      <br></br>
+                    </form>
+                    <form action="">
+                        <label for="bedrooms">check in date:</label>
+                        <select name="hotels" id="hotels">
+                            <!-- <option value="volvo"></option>
+                        <option value="volvo">$800</option>
+        <option value="saab">$900</option>
+        <option value="opel">$300</option>
+        <option value="audi">$400</option> -->
+         </select>
+      <br></br>
+                    </form>
+                    <form action="">
+                        <label for="bedrooms">check out date:</label>
+                        <select name="hotels" id="hotels"></select>
+                        </form>
+                        <form action="">
+                            <label for="bedrooms">rooms</label>
+                            <select name="hotels" id="hotels">
+                                <option value="saab"></option>
+                                <option value="saab">Adults</option>
+        <option value="opel">children</option>
+        <option value="audi">rooms</option>
+        <button type="submit" class="button">DONE</button>
+                            </select>
+                            </form>
                 </div>
             </div>
         </div>
-        <div class="poopup1">
+        <div class="poopup">
             <div class="card-container" id="box-1">
                 <div class="form">
                     <form action="" >

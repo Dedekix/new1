@@ -9,9 +9,10 @@ html,body{
     width: 43%;
 }
 
-.navbar nav{
-    display: flex;
-}
+/* .navbar nav{
+     display: flex; 
+    
+}  */
 
 .navbar ul li{
     align-items: center;
@@ -20,12 +21,12 @@ html,body{
 }
 .navbar ul li a{
     text-decoration: none;
-    align-items: center;
+    /* align-items: center; */
     /* background-color: white; */
 }
 nav{
     justify-content: space-between;
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(245, 245, 220, 0.342);
 }
 .navbar ul li button{
     /* background-color: white; */
@@ -39,12 +40,17 @@ nav{
     height: 8.5%;
     background-color: rgba(0, 0, 0, 0.589);
 }
-.image{
-    background-image: url(../Images/new3.jpg);
+.signing{
+    display: flex;
+    color: white;
+    margin: auto;
+}
+/* .image{
+    background-image: url(../Images/bedroom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-}
+} */
 .headings{
     padding: 100px;
     margin-bottom: 100px;
@@ -70,13 +76,14 @@ nav{
 .headings span{
     color: red;
 }
-.poopup{
+/* .poopup{
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.582);
     position: absolute;
     top: 0px;
-}
+    padding-bottom: 40px;
+} */
 .card-container{
  width: 700px;
  height: 500px;
@@ -84,6 +91,7 @@ nav{
  margin: auto;
  margin-top: 100px;
  border-radius: 20px;
+ padding-bottom: 90px;
 }
 input[type="text"]{
     width : 440px;

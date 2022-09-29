@@ -2,11 +2,45 @@ html,body{
     margin: 1px;
     margin-top: 0px;
 }
-.form{
+.form-1{
     height: 430px;
     width: 520px;
     margin-left: 100px;
     border-radius: 40px;
     margin: auto;
     justify-content: space-between;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+.button{
+    margin: auto;
+    color: black;
+    justify-content: center;
+    height: 70px;
+}
+.poopup-2{
+    margin: auto;
+    padding-bottom: 60px;
+   
+}
+input[type="text"]{
+    width : 100%;
+    height : 30px;
+border-radius: 5px;
+display: block;
+}
+input[type="password"]{
+    width : 100%;
+    height : 30px;
+border-radius: 5px;
+/* display: block;
+margin-top: 200px; */
+}
+.containerbutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    
+    }
