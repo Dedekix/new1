@@ -2,6 +2,12 @@ html,body{
     margin: 1px;
     margin-top: 0px;
 }
+.image{
+    background-image: url(../Images/new3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
 /* .navbar ul{
     list-style-type: none;
     display: flex;
@@ -117,8 +123,18 @@ justify-content: center;
     height: 30px;
 }
 .bttn{
-    color: aqua;
-    margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 6px;
+    cursor: pointer;
+ 
+    border-radius: 20px;
     }
 .form span{
     color: black;
